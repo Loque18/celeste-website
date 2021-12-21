@@ -1,0 +1,18 @@
+.banner-img{
+    background-image: url('../../media/bg.png');
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: scroll;
+    height: 100%;
+    // background-attachment: fixed;
+    background-size:  cover;
+}
+
+.lbplan{
+    background: unset !important;
+    background-color: rgba(#000, 0.65) !important;
+
+    > span {
+        background: unset !important;        
+    }
+}

@@ -1,0 +1,21 @@
+@import './font-helper.scss';
+@import './color-helpers';
+@import './custom-notifications';
+@import './scroll-helper';
+@import './custom-table';
+@import './size-helpers';
+@import './issues-helper';
+@import './vars';
+@import '~bulma';
+
+html, body, #root{
+    height: 100%;
+    width: 100%;
+    // overflow: hidden;
+
+    @extend .coolscroll;
+}
+
+*{
+    // transition: 0.5s !important;
+}

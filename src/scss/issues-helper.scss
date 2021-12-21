@@ -1,0 +1,19 @@
+.notification{
+    padding: 0 !important;
+    background: rgba(0,0,0,0) !important;
+}
+
+code{
+    background-color: unset !important;
+    color: unset !important;
+    font-family: monospace !important;
+    max-width: 100%;
+    
+
+    
+}
+
+::selection{
+    background-color: #2bd1ff !important;
+    color: #03010d !important;
+}

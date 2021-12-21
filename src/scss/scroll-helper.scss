@@ -1,0 +1,23 @@
+@import './vars';
+
+/* width */
+.coolscroll::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+/* Track */
+.coolscroll::-webkit-scrollbar-track {
+    background: $hblack;
+}
+
+/* Handle */
+.coolscroll::-webkit-scrollbar-thumb {
+    background: rgba($hred, 0.8);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.coolscroll::-webkit-scrollbar-thumb:hover {
+    background: rgba($hred, 0.6);
+}
